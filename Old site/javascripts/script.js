@@ -48,5 +48,29 @@ $(document).ready(function(){
     $(window).scrollTop(0);
     return false;
   })
+  var setNewIntro = function(){
+    var messages = ["This is a Buffer and will never be shown",
+                    "<h1>Social Media Person Needed! <a href = 'http://infinitestrikeltd.github.io/Contact.html'>Sign Up!</a></h1>", //0
+                    "<h1>Welcome to Infinite Strike, this is the new home! we are now on git hub!</h1>",       //1
+                    "<h1>Follow us on social media!</h1>",
+                    "<h1 style = 'color:yellow;font-family:Minecraft;text-shadow:rgba(0,0,0,0.5) 0px 0px 7px;'>This is not Minecraft!!</h1>"];       //2
+                                               // So on and so forth
+     
+    var setRandomness = messages.length-1;
+    var randomChoice = Math.floor(Math.random() * setRandomness) + 1
+    //alert(randomChoice);
+     
+     
+    $('#message_holder').prepend(messages[randomChoice])
+    
+ 
+ }   
+    
+  
+ 
+ 
+ setNewIntro();
+});
+
 });
 })(jQuery)

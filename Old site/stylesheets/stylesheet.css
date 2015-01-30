@@ -682,7 +682,7 @@ a.download-button span {
 
 footer {
   margin-bottom: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 60px; 
 }
 
 footer .owner {
@@ -964,3 +964,25 @@ footer .owner p a {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+/*My CSS*/
+
+#Nav_menu {
+    width: 100%;
+    color: #009926;
+    font-size: 28px;
+    text-align: center;
+}
+#Nav_menu a {
+    text-align: center;
+    font-family: cursive;
+    font-size: 28px;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+#Nav_menu a:hover {
+    color: #008080;
+}
+.Games_footer {
+    padding-top: 100px;
+}
