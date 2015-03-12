@@ -4,7 +4,7 @@
 }*/
 
 body {
-    background-image: url(IMG/BlackDenimBack.jpg)
+    background-image: url(IMG/BGImage.jpg)
 }
 
 
@@ -14,7 +14,7 @@ body {
     color:#FFFF80;
     font-family:Helvetica; 
     font-size: 49px;
-    background-color: #85A3FF;
+    background-color: rgba(27, 3, 50, 0.78);
     margin-left: 400px;
     margin-right: 400px;
 }
@@ -24,7 +24,7 @@ body {
     color: #FFFF80;
     font-family:Helvetica; 
     font-size: 25px;
-    background-color: #85A3FF;
+    background-color: rgba(27, 3, 50, 0.78);
     margin-left: 400px;
     margin-right: 400px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 #Content {
-    background-color: #85A3FF;
+    background-color: rgba(27, 3, 50, 0.78);
     text-align: center;
     font-family:Helvetica; 
     font-size: 25px;
@@ -63,7 +63,7 @@ body {
     padding-right: 15px;
     float: 40px;*/
     
-    background-color: #85A3FF;
+    background-color: rgba(27, 3, 50, 0.78);
     text-align: center;
     font-family:Helvetica; 
     font-size: 25px;
@@ -79,7 +79,7 @@ body {
 }
 
 #gamesContent {
-    background-color: #85A3FF;
+    background-image: url(IMG/BGImage.jpg);
     text-align: center;
     font-family:Helvetica; 
     font-size: 25px;
@@ -89,7 +89,7 @@ body {
     padding-top: 175px;
     padding-left: 175px;
     padding-right: 150px;
-    padding-bottom: 175px;
+    padding-bottom: 165px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 #aboutContent {
-    background-color: #85A3FF;
+    background-image: url(IMG/BGImage.jpg);
     text-align: center;
     font-family: Helvetica;
     font-size: 25px;
